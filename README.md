@@ -10,8 +10,11 @@
 
 | 游戏（故事名） | 版本 | 覆盖内容 | 章节数 | 下载 |
 | --- | --- | --- | --- | --- |
+| **小马宝莉·友谊英语课**（全新大版本） | v5.0 | Unit 1–6 + Revision（80 课时 · 240 题） | 多章 | [Release v5.0（Windows）](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v5.0) |
 | **说对了才能继续** | v1.0 | Unit 1–6 | 6 章 | [Release v1.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0) |
 | **友谊城堡的神秘来信** | v3.0 | Unit 1–6 + Revision | 7 章 | [Release v3.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v3.0) |
+
+**v5.0 是最新完整版本**（四册故事 · 80 课时 · 240 题），推荐优先下载试玩；下方两个为早期单故事版本，仍保留供参考。
 
 两个游戏玩法一致、剧情与题库各自独立，可分别下载试玩。
 
@@ -48,6 +51,7 @@
 
 可玩的安装包以 **GitHub Release** 形式发布，请到对应版本下载：
 
+- **小马宝莉·友谊英语课** v5.0（最新完整版，Windows）：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v5.0>
 - **说对了才能继续** v1.0：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0>
 - **友谊城堡的神秘来信** v3.0：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v3.0>
 
