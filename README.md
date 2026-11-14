@@ -1,12 +1,19 @@
-# 小马宝莉 · 说对了才能继续（PonyTalk）
+# 小马宝莉英语闯关系列（PonyTalk）
 
-> 一个给小学三年级小朋友设计的英语句子闯关小游戏。以《小马宝莉》为主题，用「对话 + 三选一句子卡」的方式，带孩子边玩边练**人教版（PEP）小学英语三年级上册 Unit 1–6** 的重点句型。内容与课本单元同步，循序渐进。
+> 一套给小学三年级小朋友设计的小马宝莉主题英语句子闯关小游戏。每个游戏是一个独立的小故事，用「对话 + 三选一句子卡」的方式，带孩子边玩边练**人教版（PEP）小学英语三年级上册**的重点句型。
 
-*A kid-friendly English sentence quiz game for 3rd graders, themed with My Little Pony and aligned with the PEP (People's Education Press) Grade-3 Semester-1 textbook, Units 1–6.*
-
-当前版本：**v1.0**，覆盖三年级上册 Unit 1–6。
+*A collection of kid-friendly English sentence quiz games for 3rd graders, themed with My Little Pony and aligned with the PEP (People's Education Press) Grade-3 Semester-1 textbook.*
 
 ---
+
+## 本仓库包含的游戏
+
+| 游戏（故事名） | 版本 | 覆盖内容 | 章节数 | 下载 |
+| --- | --- | --- | --- | --- |
+| **说对了才能继续** | v1.0 | Unit 1–6 | 6 章 | [Release v1.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0) |
+| **友谊城堡的神秘来信** | v3.0 | Unit 1–6 + Revision | 7 章 | [Release v3.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v3.0) |
+
+两个游戏玩法一致、剧情与题库各自独立，可分别下载试玩。
 
 ## 游戏简介
 
@@ -27,57 +34,49 @@
 
 **操作方式**：用鼠标点击句子卡作答；也可以直接按键盘 **1 / 2 / 3** 选择对应的句子卡。
 
-## 六个章节
-
-| 章节 | 课本单元 | 标题 | 场景 | 学习目标（重点句型） |
-| --- | --- | --- | --- | --- |
-| 1 | Unit 1 Making friends | 新朋友 | 草地 | Hello / I'm … / My name is … / Nice to meet you |
-| 2 | Unit 2 Different families | 苹果嘉儿的家 | 农场 | This is my … / Is this your …? / I have a big family |
-| 3 | Unit 3 Amazing animals | 森林里的小动物 | 森林 | What's this / that? / It's a … / Do you have a pet? |
-| 4 | Unit 4 Plants around us | 小马谷的花园 | 花园 | Do you like …? / I like … / We can … / Plants need … |
-| 5 | Unit 5 The colourful world | 雨后的彩虹 | 彩虹 | What colour is it? / It's … / Red and blue make … |
-| 6 | Unit 6 Useful numbers | 碧琪的生日派对 | 派对 | How old are you? / How many …? / It's seven o'clock. |
-
 ## 主要角色
 
 - **Sunny（你）**：刚来到小马谷的小朋友，游戏的主角。
 - **Twilight 紫悦**：博学的小马，负责开场和引导。
-- **Pinkie 碧琪**：活泼好客，带你认识新朋友（Unit 1）。
-- **Applejack 苹果嘉儿**：农场主，带你认识家人（Unit 2）。
-- **Fluttershy 柔柔**：温柔善良，陪你在森林里认识动物（Unit 3）。
-- **Rainbow 云宝**：活泼的飞行小马，出现在彩虹章节（Unit 5）。
-- **Rarity 珍奇**：出现在派对章节（Unit 6）。
+- **Pinkie 碧琪**：活泼好客，带你认识新朋友。
+- **Applejack 苹果嘉儿**：农场主，带你认识家人。
+- **Fluttershy 柔柔**：温柔善良，陪你在森林里认识动物。
+- **Rainbow 云宝**：活泼的飞行小马，出现在彩虹章节。
+- **Rarity 珍奇**：出现在派对章节。
 
 ## 下载与运行（直接玩）
 
-可玩的安装包以 **GitHub Release** 形式发布，请到 Releases 页面下载：
+可玩的安装包以 **GitHub Release** 形式发布，请到对应版本下载：
 
-**下载地址：https://github.com/CynthiaYexingyi/Ponytalk/releases/latest**
+- **说对了才能继续** v1.0：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0>
+- **友谊城堡的神秘来信** v3.0：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v3.0>
 
-1. 下载 `PonyTalk-pc.zip`。
-2. 解压到任意文件夹。
-3. 双击 `PonyTalk.exe` 即可在 Windows 上运行。
+下载对应版本的 `PonyTalk-pc.zip`，解压到任意文件夹，双击 `PonyTalk.exe` 即可在 Windows 上运行（无需安装）。
 
-- **系统要求**：Windows 7 及以上；无需安装，解压即玩。
-- 存档位置：Windows 下位于 `C:\Users\<用户名>\AppData\Roaming\RenPy\Mylittlepony-1793319893`。
+- **系统要求**：Windows 7 及以上；存档位于 `C:\Users\<用户名>\AppData\Roaming\RenPy\` 下。
 - macOS / Linux 用户可通过 Ren'Py 运行（见下方「二次开发」）。
 
 ## 二次开发与改内容（老师 / 开发者）
 
-本仓库只保存**游戏源码与素材**（`game/` 目录），不包含 Ren'Py 运行环境；可玩的安装包请见 Releases。
+本仓库按「故事」分目录，每个目录都是一个独立的 **Ren'Py 项目**（内含 `game/`）：
+
+```
+说对了才能继续/        # 故事一（v1.0）
+友谊城堡的神秘来信/    # 故事二（v3.0）
+```
 
 **运行 / 试玩**
 
 1. 安装 Ren'Py 官方 SDK（https://www.renpy.org/）。
-2. 用 Ren'Py Launcher 打开本仓库目录（或直接把 `game/` 放到一个 Ren'Py 项目里）。
+2. 用 Ren'Py Launcher 打开 `说对了才能继续/` 或 `友谊城堡的神秘来信/` 目录（即包含 `game/` 的那一层）。
 3. 点击 **Launch Project** 即可试玩。
 
 **改剧情和题目**
 
-绝大多数修改只需要改 **`game/d_story.rpy`** 一个文件：
+绝大多数修改只需要改对应目录下 **`game/d_story.rpy`** 一个文件：
 
 - `PONY`：角色的名字、颜色和立绘。
-- `CHAPTERS`：六个单元的故事；每个章节由若干 `beat` 组成：
+- `CHAPTERS`：各单元的故事；每个章节由若干 `beat` 组成：
   - `("narr", 中文旁白)`
   - `("say", 角色key, 英文台词, 中文译文)`
   - `("quiz", 题目字典)` —— 含情境 `scene`、问题 `ask`、三个选项 `options`、正确下标 `answer`、答对讲解 `explanation`、小贴士 `tip`。
@@ -92,20 +91,29 @@
 
 ```
 Ponytalk/
-├── game/                      # 游戏内容（剧本、题库、图片、音效、字体）
-│   ├── a_theme.rpy            # 主题与样式（粉紫马卡龙配色、对话框、按钮）
-│   ├── b_ui.rpy               # 界面（主菜单 / 玩法说明 / 选章 / HUD / 答题卡 / 结算 / 结局）
-│   ├── c_engine.rpy           # 游戏流程（章节循环、对话、答题、星星统计）
-│   ├── d_story.rpy            # ★ 故事与题库数据（改内容主要改这里）
-│   ├── options.rpy            # 游戏配置（名称、版本、存档目录等）
-│   ├── screens.rpy / gui.rpy  # Ren'Py 默认界面与 GUI 配置（已被上面自定义覆盖）
-│   ├── images/                # 背景(bg)、小马立绘(pony)、UI 元素(ui)
-│   ├── sfx/                   # 音效（correct / wrong / star / click / done 等 .wav）
-│   ├── gui/                   # 界面默认素材
-│   └── SourceHanSansLite.ttf  # 思源黑体（中文显示）
-├── LICENSE                    # CC BY-NC-SA 4.0
+├── 说对了才能继续/            # 故事一（v1.0，Unit 1–6，6 章）
+│   └── game/                 #   Ren'Py 项目（剧本 / 题库 / 图片 / 音效 / 字体）
+├── 友谊城堡的神秘来信/        # 故事二（v3.0，Unit 1–6 + Revision，7 章）
+│   └── game/
+├── LICENSE                   # CC BY-NC-SA 4.0
 ├── README.md
 └── .gitignore
+```
+
+每个 `game/` 内的主要文件：
+
+```
+game/
+├── a_theme.rpy            # 主题与样式（粉紫马卡龙配色、对话框、按钮）
+├── b_ui.rpy               # 界面（主菜单 / 玩法说明 / 选章 / HUD / 答题卡 / 结算 / 结局）
+├── c_engine.rpy           # 游戏流程（章节循环、对话、答题、星星统计）
+├── d_story.rpy            # ★ 故事与题库数据（改内容主要改这里）
+├── options.rpy            # 游戏配置（名称、版本、存档目录等）
+├── screens.rpy / gui.rpy  # Ren'Py 默认界面与 GUI 配置（已被上面自定义覆盖）
+├── images/                # 背景(bg)、小马立绘(pony)、UI 元素(ui)
+├── sfx/                   # 音效（correct / wrong / star / click / done 等 .wav）
+├── gui/                   # 界面默认素材
+└── SourceHanSansLite.ttf  # 思源黑体（中文显示）
 ```
 
 > 说明：`.rpyc` / `.rpyb` 等编译产物与本地存档已被 `.gitignore` 忽略，Ren'Py 启动时会自动重新生成，无需纳入版本管理。
