@@ -53,7 +53,7 @@
 - **小马宝莉 · 友谊英语课** v6.0（最新修复版）：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v6.0>
 - **说对了才能继续** v1.0（早期小故事）：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0>
 
-下载对应版本的 zip（v6.0 为 `PonyTalk-Windows-v6.0.zip`），解压到任意文件夹，双击 `PonyTalk.exe` 即可在 Windows 上运行（无需安装）。
+下载对应版本的 zip（v6.0 为 `PonyTalk-Windows.zip`），解压到任意文件夹，双击 `PonyTalk.exe` 即可在 Windows 上运行（无需安装）。
 
 - **系统要求**：Windows 7 及以上；存档位于 `C:\Users\<用户名>\AppData\Roaming\RenPy\` 下。
 - macOS / Linux 用户可通过 Ren'Py 运行（见下方「二次开发」）。
