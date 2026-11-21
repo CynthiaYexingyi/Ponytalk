@@ -70,7 +70,7 @@
 **运行 / 试玩**
 
 1. 安装 Ren'Py 官方 SDK（https://www.renpy.org/）。
-2. 用 Ren'Py Launcher 打开 `说对了才能继续/` 或 `友谊城堡的神秘来信/` 目录（即包含 `game/` 的那一层）。
+2. 用 Ren'Py Launcher 打开 `说对了才能继续/` 目录（即包含 `game/` 的那一层）。
 3. 点击 **Launch Project** 即可试玩。
 
 **改剧情和题目**
