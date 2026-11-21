@@ -8,13 +8,12 @@
 
 ## 本仓库包含的游戏
 
-| 游戏（故事名） | 版本 | 覆盖内容 | 章节数 | 下载 |
-| --- | --- | --- | --- | --- |
-| **小马宝莉·友谊英语课**（全新大版本） | v5.0 | Unit 1–6 + Revision（80 课时 · 240 题） | 多章 | [Release v5.0（Windows）](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v5.0) |
-| **说对了才能继续** | v1.0 | Unit 1–6 | 6 章 | [Release v1.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0) |
-| **友谊城堡的神秘来信** | v3.0 | Unit 1–6 + Revision | 7 章 | [Release v3.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v3.0) |
+| 游戏（故事名） | 版本 | 覆盖内容 | 下载 |
+| --- | --- | --- | --- |
+| **说对了才能继续** | v1.0 | Unit 1–6（6 章，早期小故事） | [Release v1.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0) |
+| **小马宝莉 · 友谊英语课** | v6.0（最新修复版） | 四册 · 80 课时 · 320 题 · Unit 1–6 + Revision | [Release v6.0](https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v6.0) |
 
-**v5.0 是最新完整版本**（四册故事 · 80 课时 · 240 题），推荐优先下载试玩；下方两个为早期单故事版本，仍保留供参考。
+**v6.0 是最新修复版**，覆盖并取代了旧的 v3.0《友谊城堡的神秘来信》与 v5.0（这两版漏洞较多，已从 Releases 移除）；最早的 v1.0《说对了才能继续》仍保留供下载。
 
 两个游戏玩法一致、剧情与题库各自独立，可分别下载试玩。
 
@@ -51,11 +50,10 @@
 
 可玩的安装包以 **GitHub Release** 形式发布，请到对应版本下载：
 
-- **小马宝莉·友谊英语课** v5.0（最新完整版，Windows）：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v5.0>
-- **说对了才能继续** v1.0：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0>
-- **友谊城堡的神秘来信** v3.0：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v3.0>
+- **小马宝莉 · 友谊英语课** v6.0（最新修复版）：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v6.0>
+- **说对了才能继续** v1.0（早期小故事）：<https://github.com/CynthiaYexingyi/Ponytalk/releases/tag/v1.0>
 
-下载对应版本的 `PonyTalk-pc.zip`，解压到任意文件夹，双击 `PonyTalk.exe` 即可在 Windows 上运行（无需安装）。
+下载对应版本的 zip（v6.0 为 `PonyTalk-Windows-v6.0.zip`），解压到任意文件夹，双击 `PonyTalk.exe` 即可在 Windows 上运行（无需安装）。
 
 - **系统要求**：Windows 7 及以上；存档位于 `C:\Users\<用户名>\AppData\Roaming\RenPy\` 下。
 - macOS / Linux 用户可通过 Ren'Py 运行（见下方「二次开发」）。
@@ -65,8 +63,8 @@
 本仓库按「故事」分目录，每个目录都是一个独立的 **Ren'Py 项目**（内含 `game/`）：
 
 ```
-说对了才能继续/        # 故事一（v1.0）
-友谊城堡的神秘来信/    # 故事二（v3.0）
+说对了才能继续/        # 早期小故事（v1.0）
+英语学习网站/          # 2024 新版人教 PEP 三上 单文件学习网站（index.html）
 ```
 
 **运行 / 试玩**
@@ -91,14 +89,25 @@
 
 在 Ren'Py Launcher 中选择 **Build Distributions**，勾选 PC / Mac / Linux 等目标平台，即可生成可分发版本。
 
+## 英语学习网站（新部分）
+
+仓库中的 `英语学习网站/index.html` 是一个**单文件、零外部依赖**的英语学习网页，对应人教 PEP 2024 三年级上册。双击用浏览器打开即可使用，包含：
+
+- **学一学**：按单元浏览核心句型与单词，配小马插画；
+- **测一测 / 错题小测**：选择题练习，答错自动进错题本；
+- **拼一拼 / 拖一拖 / 字母拼**：单词拼写与排列互动练习；
+- 发音朗读（调用浏览器语音合成）、星星与进度记录（本地保存）。
+
+所有图片已内嵌为 base64，无需联网、无需额外素材文件。
+
 ## 项目结构
 
 ```
 Ponytalk/
 ├── 说对了才能继续/            # 故事一（v1.0，Unit 1–6，6 章）
 │   └── game/                 #   Ren'Py 项目（剧本 / 题库 / 图片 / 音效 / 字体）
-├── 友谊城堡的神秘来信/        # 故事二（v3.0，Unit 1–6 + Revision，7 章）
-│   └── game/
+├── 英语学习网站/              # 2024 新版 PEP 三上 单文件学习网站（可直接在浏览器打开）
+│   └── index.html
 ├── LICENSE                   # CC BY-NC-SA 4.0
 ├── README.md
 └── .gitignore
